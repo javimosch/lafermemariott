@@ -18,7 +18,7 @@ spec:
         pathType: Prefix
         backend:
           service:
-            name: misitioba-external-svc
+            name: savoietech-external-svc
             port:
-              number: 3876
+              number: 3877
 
