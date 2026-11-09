@@ -7,6 +7,6 @@ new Elysia()
         assets: 'static',
         prefix: '/'
     }))
-    .listen(3000,()=>{
-        console.info('Elysia listening on 3000')
+    .listen(process.env.PORT||3000,()=>{
+        console.info(`Elysia listening on ${process.env.PORT||3000}`)
     })

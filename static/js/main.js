@@ -22,7 +22,7 @@ function fetchData(url) {
     });
 }
 
-fetchData('https://27e9-195-154-119-28.ngrok-free.app/hello').then(console.log).catch(console.error)
+//fetchData('https://27e9-195-154-119-28.ngrok-free.app/hello').then(console.log).catch(console.error)
 
 let elements = [...document.querySelectorAll('[data-crudui]')]
 elements.forEach(el=>{
